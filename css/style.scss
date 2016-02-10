@@ -1,0 +1,30 @@
+//*********bases
+
+body{
+
+
+}
+
+// modules
+
+[class*=col-]{
+
+  //border:solid 1px #ddd;
+}
+
+nav{
+  background: cadetblue;
+}
+#head{
+  border:solid 1px;
+}
+
+#p-footer{
+
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: center;
+  border:solid 1px #ddd;
+  border-radius: 5px;
+  margin-top: 50px;
+}

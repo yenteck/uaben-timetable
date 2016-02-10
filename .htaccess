@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+    Options -MultiViews
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+
+    RewriteRule ^([a-zA-Z_]*)/([a-zA-Z_]*)$ ./index.php?section=$1&action=$2
+    RewriteRule ^([a-zA-Z_]*)$ ./index.php?section=$1
+    RewriteRule ^([a-zA-Z_]*)/([a-zA-Z_]*)/([0-9]*)$ ./index.php?section=$1&action=$2&id=$3
+</IfModule>
