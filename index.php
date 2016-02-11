@@ -6,10 +6,14 @@
 
     //error_reporting(E_ALL);
 
-    var_dump($_GET);
+    // traitement des requettes qui ont pas besoin de securité
 
+    if (isset($_GET['section']) and $_GET['section']=='api')
+    {
 
-
+        include_once('controller/'.$_GET['section'].'/'.$_GET['action'].'.php');
+        exit;
+    }
     // la connection
     $isconnected=isConnected();
 
