@@ -1,10 +1,10 @@
 <?php
 
 class Pdoconnect{
-    private $host='localhost';
-    private $dbname='time_table';
-    private $username='yenteck';
-    private $password='beboila';
+    private $host='tviw6wn55xwxejwj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+    private $dbname='siviletesda0ijjt';
+    private $username='jqtgwvqg6i63oquv';
+    private $password='dbvhoq9nbjf9jnvz';
     private $bdd;
 
     public function __construct(){
@@ -30,7 +30,7 @@ class Pdoconnect{
 }
 
 try{
-    $bdd=new PDO("mysql:dbname=timetable;host=localhost","yenteck","beboila");
+    $bdd=new PDO("mysql:dbname=siviletesda0ijjt;host=tviw6wn55xwxejwj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","jqtgwvqg6i63oquv","dbvhoq9nbjf9jnvz");
 
 }catch(Exception $e){
     die("erreur .$e->getMessage()");

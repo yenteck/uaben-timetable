@@ -2,7 +2,7 @@
 
     session_start();
     require_once "inc/app.php";
-     require_once "model/PDO/pdoconnectPOSTGRES.php";
+    require_once "model/PDO/pdoconnect.php";
 
     //error_reporting(E_ALL);
 
