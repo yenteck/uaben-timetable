@@ -6,6 +6,7 @@
 
     //error_reporting(E_ALL);
 
+    header('Access-Control-Allow-Origin: *');
     // traitement des requettes qui ont pas besoin de securité
 
     if (isset($_GET['section']) and $_GET['section']=='api')
