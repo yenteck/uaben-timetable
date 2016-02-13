@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/details.php" afterPath="$PROJECT_DIR$/views/Emploie/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/index.php" afterPath="$PROJECT_DIR$/views/Emploie/index.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,20 +51,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.555555">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.43898305">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6677966">
+            <state vertical-scroll-proportion="-14.592592">
               <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
               <folding />
             </state>
@@ -157,8 +155,8 @@
         <option value="$PROJECT_DIR$/model/api/timetable.php" />
         <option value="$PROJECT_DIR$/controller/api/timetable.php" />
         <option value="$PROJECT_DIR$/views/Emploie/index.php" />
-        <option value="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
         <option value="$PROJECT_DIR$/views/Emploie/details.php" />
+        <option value="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
       </list>
     </option>
   </component>
@@ -769,6 +767,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.592592">
+          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="9.259259">
@@ -779,16 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.555555">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6677966">
-          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.43898305">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
           <folding />
         </state>
       </provider>
