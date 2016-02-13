@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <?php  include "inc/css.php"?>
+    <link rel="stylesheet" href="../../css/bootstrap-flatly.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/bootstrap-datetimepicker.min.css">
 </head>
 <body>
 

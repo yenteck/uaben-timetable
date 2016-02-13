@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Cours/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Emploie/details.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Emploie/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/moment.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Cours/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Emploie/details.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Emploie/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Professeurs/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/api/timetable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Emploie/details.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Emploie/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time_table.mwb" afterPath="$PROJECT_DIR$/time_table.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time_table.mwb.bak" afterPath="$PROJECT_DIR$/time_table.mwb.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/api/timetable.php" afterPath="$PROJECT_DIR$/controller/api/timetable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.scss" afterPath="$PROJECT_DIR$/css/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Cours/index.php" afterPath="$PROJECT_DIR$/model/Cours/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Cours/index.php" afterPath="$PROJECT_DIR$/views/Cours/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/index.php" afterPath="$PROJECT_DIR$/views/Emploie/index.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +34,7 @@
       <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.37037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -70,18 +44,38 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.296296">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timetable.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="timetable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/api/timetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6488414">
+            <state vertical-scroll-proportion="-13.481482">
               <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.620339">
+              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.333333">
+              <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -90,7 +84,7 @@
       <file leaf-file-name="timetable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/api/timetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-29.037037">
+            <state vertical-scroll-proportion="0.0">
               <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
               <folding>
                 <marker date="1455379470684" expanded="true" signature="70:862" placeholder="SELECT c.idc... matiere" />
@@ -155,7 +149,6 @@
         <option value="$PROJECT_DIR$/controller/Emploie/index.php" />
         <option value="$PROJECT_DIR$/model/Emploie/index.php" />
         <option value="$PROJECT_DIR$/views/Cours/index.php" />
-        <option value="$PROJECT_DIR$/views/Emploie/index.php" />
         <option value="$PROJECT_DIR$/model/Professeurs/index.php" />
         <option value="$PROJECT_DIR$/js/moment.min.js" />
         <option value="$PROJECT_DIR$/css/style.scss" />
@@ -167,6 +160,7 @@
         <option value="$PROJECT_DIR$/model/Emploie/details.php" />
         <option value="$PROJECT_DIR$/model/api/timetable.php" />
         <option value="$PROJECT_DIR$/controller/api/timetable.php" />
+        <option value="$PROJECT_DIR$/views/Emploie/index.php" />
       </list>
     </option>
   </component>
@@ -209,6 +203,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,50 +247,16 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIMETABLE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIMETABLE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIMETABLE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TIMETABLE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="Emploie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,10 +339,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28831562" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29242423" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -605,7 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37288135">
           <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75932205">
           <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42711863">
-          <caret line="85" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -662,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.094915256">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,10 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42711863">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1455179845489" expanded="true" signature="193:341" placeholder="SELECT * FRO... matiere" />
-            <marker date="1455179845489" expanded="true" signature="411:535" placeholder="SELECT * FRO... matiere" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -681,11 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14237288">
           <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-          <folding>
-            <marker date="1455311539109" expanded="true" signature="77:91" placeholder="SELECT * FRO... matiere" />
-            <marker date="1455311539109" expanded="true" signature="77:101" placeholder="SELECT * FRO... professeur" />
-            <marker date="1455311539109" expanded="true" signature="77:103" placeholder="SELECT * FRO... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29946524">
           <caret line="6" column="55" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <marker date="1455374169298" expanded="true" signature="70:542" placeholder="select c.idc... matiere" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -724,12 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29946524">
           <caret line="6" column="149" selection-start-line="6" selection-start-column="149" selection-end-line="6" selection-end-column="149" />
-          <folding>
-            <marker date="1455377160483" expanded="true" signature="160:182" placeholder="INSERT INTO cours... " />
-            <marker date="1455377160483" expanded="true" signature="160:192" placeholder="INSERT INTO cours... " />
-            <marker date="1455377160483" expanded="true" signature="160:213" placeholder="INSERT INTO cours... " />
-            <marker date="1455377160483" expanded="true" signature="160:326" placeholder="INSERT INTO cours... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3493761">
           <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,32 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24955437">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1455299581934" expanded="true" signature="70:107" placeholder="SELECT * FRO... emploie" />
-            <marker date="1455299581934" expanded="true" signature="70:108" placeholder="SELECT * FRO... emploie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29946524">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <marker date="1455376808624" expanded="true" signature="3615:3876" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="3738:3876" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="4103:4384" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="4230:4384" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="4628:4922" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="4762:4922" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5322:5920" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5347:5920" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5381:5411" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5639:5920" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5764:5920" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="5824:5920" placeholder="..." />
-            <marker date="1455376808624" expanded="true" signature="7009:7015" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,13 +686,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3493761">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.296296">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
           <folding />
         </state>
@@ -808,7 +715,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.37037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
@@ -816,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/api/timetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-29.037037">
+        <state vertical-scroll-proportion="0.0">
           <caret line="28" column="100" selection-start-line="28" selection-start-column="100" selection-end-line="28" selection-end-column="100" />
           <folding>
             <marker date="1455379470684" expanded="true" signature="70:862" placeholder="SELECT c.idc... matiere" />
@@ -828,8 +735,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/api/timetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6488414">
+        <state vertical-scroll-proportion="-13.481482">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.333333">
+          <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.620339">
+          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
           <folding />
         </state>
       </provider>
