@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <link rel="stylesheet" href="../../css/bootstrap-flatly.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-flatly.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap-datetimepicker.min.css">
 </head>
 <body>
 

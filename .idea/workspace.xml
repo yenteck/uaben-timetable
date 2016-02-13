@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/details.php" afterPath="$PROJECT_DIR$/views/Emploie/details.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/index.php" afterPath="$PROJECT_DIR$/views/Emploie/index.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
@@ -61,21 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.620339">
-              <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+            <state vertical-scroll-proportion="-7.259259">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
-              <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.3322034">
+              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -154,13 +155,13 @@
         <option value="$PROJECT_DIR$/css/style.scss" />
         <option value="$PROJECT_DIR$/controller/Emploie/details.php" />
         <option value="$PROJECT_DIR$/model/Cours/index.php" />
-        <option value="$PROJECT_DIR$/views/Emploie/details.php" />
         <option value="$PROJECT_DIR$/controller/Cours/add.php" />
         <option value="$PROJECT_DIR$/model/Cours/add.php" />
         <option value="$PROJECT_DIR$/model/Emploie/details.php" />
         <option value="$PROJECT_DIR$/model/api/timetable.php" />
         <option value="$PROJECT_DIR$/controller/api/timetable.php" />
         <option value="$PROJECT_DIR$/views/Emploie/index.php" />
+        <option value="$PROJECT_DIR$/views/Emploie/details.php" />
       </list>
     </option>
   </component>
@@ -741,18 +742,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
+    <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
-          <caret line="195" column="24" selection-start-line="195" selection-start-column="24" selection-end-line="195" selection-end-column="24" />
+        <state vertical-scroll-proportion="-7.259259">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Emploie/index.php">
+    <entry file="file://$PROJECT_DIR$/views/Emploie/details.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.620339">
-          <caret line="105" column="26" selection-start-line="105" selection-start-column="26" selection-end-line="105" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.3322034">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
           <folding />
         </state>
       </provider>
