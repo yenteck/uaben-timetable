@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <link rel="stylesheet" href="../../css/bootstrap-flatly.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <link rel="stylesheet" href="../../css/bootstrap-datetimepicker.min.css">
+    <?php  include "inc/css.php"?>
 </head>
 <body>
 
@@ -103,8 +101,8 @@
 </div>
 
 
-<script src="../../js/jquery-2.1.4.min.js"></script>
-<script src="../../js/bootstrap.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script>
     $('.collapse').collapse();
 </script>
