@@ -4,7 +4,7 @@ function getEmploie($idclasse){
 
     global $bdd;
 
-    $query="select c.idcours, m.codematiere ,p.nomprofesseur , s.codesalle  ,cla.codeclasse , DATE_FORMAT(c.datedebut, '%W') jour , concat( date_format(c.datedebut,'%H\h-%i -') ,date_format(c.datefin,' %H\h-%i')) heure
+    $query="select c.idcours, m.codematiere ,p.nomcourt , s.codesalle  ,cla.codeclasse , DATE_FORMAT(c.datedebut, '%W') jour , concat( date_format(c.datedebut,'%H\h-%i -') ,date_format(c.datefin,' %H\h-%i')) heure
         FROM matiere m , professeur p , salle s , classe cla , cours c
 
         WHERE c.idclasse=cla.idclasse AND s.idsalle=c.idsalle

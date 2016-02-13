@@ -75,17 +75,21 @@
                 </form>
             </div>
 
-            <a href="/Cours/add" class="btn btn-info" style="margin-bottom: 10px">Ajouter un emploie</a>
-            <div>
-                emploie de temps
-
-
+            <a href="/Emploie/add" class="btn btn-info" style="margin-bottom: 10px">Ajouter Un Emploie</a>
+            <hr>
+            <div class="list-group">
+                <?php
+                foreach ($listeEmploie as $emploie) {
+                    echo "<li class='list-group-item'><a href='/Emploie/details/".$emploie['idemploie']."'>".$emploie['libelleemploie']."</a></li>";
+                }
+                ?>
+            </div>
+                    </div>
+                </div>
             </div>
 
 
-            </div>
-
-
+        </div>
     </div>
 
     <!-- end the section-->
