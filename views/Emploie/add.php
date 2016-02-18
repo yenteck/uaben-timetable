@@ -41,11 +41,10 @@
                 <ul class="nav navbar-nav">
                     <li ><a href="/">Accueil</a></li>
                     <li ><a href="/Filieres" >Filieres</a></li>
-                    <li><a href="/Classes">Classes</a></li>
+                    <li ><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
-                    <li class="active"><a href="/Matieres">Matieres</a></li>
-                    <li><a href="/Emploie">Emploie de temps</a></li>
+                    <li class="active"><a href="/Emploie">Emploie de temps</a></li>
+                    <li><a href="/Matieres">Matieres</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>
@@ -59,32 +58,28 @@
         <div class="col-sm-offset-1 col-sm-10">
 
             <div class="text-center">
-                <h3>AJOUTER UNE MATIERE </h3>
+                <h3>AJOUTER UN EMPLOIE </h3>
 
             </div>
 
 
 
-            <form action="/Matieres/add/" method="post">
+            <form action="/Emploie/add" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE CLASSE</label>
                     <select name="idclasse" class="form-control">
                         <?php
-                        foreach($listeClasses as $classe){
+                        foreach($listeClasse as $classes){
                             ?>
-                            <option value="<?= $classe['idclasse'] ?>"><?= $classe['codeclasse'] ?></option>
+                            <option value="<?= $classes['idclasse'] ?>"><?= $classes['codeclasse'] ?></option>
                             <?php
                         }
                         ?>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="">NOM COMPLET</label>
-                    <input type="text" name="libellematiere"  class="form-control">
+                    <label for="">NOM DE L'EMPLOIE  </label>
+                    <input type="text" name="libelle"  class="form-control" placeholder="Ex: emploie du 01 au 7 avril 2015">
                 </div>
                 <input type="submit" value="ENREGISTRER " class="btn btn-primary">
             </form>
@@ -98,3 +93,6 @@
         </div>
     </footer>
 </div>
+
+</body>
+</html>

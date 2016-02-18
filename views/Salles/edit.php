@@ -42,9 +42,9 @@
                     <li ><a href="/">Accueil</a></li>
                     <li ><a href="/Filieres" >Filieres</a></li>
                     <li><a href="/Classes">Classes</a></li>
-                    <li><a href="/Salles">Salles</a></li>
+                    <li class="active"><a href="/Salles">Salles</a></li>
                     <li><a href="/Cours">Cours</a></li>
-                    <li class="active"><a href="/Matieres">Matieres</a></li>
+                    <li><a href="/Matieres">Matieres</a></li>
                     <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
@@ -59,32 +59,21 @@
         <div class="col-sm-offset-1 col-sm-10">
 
             <div class="text-center">
-                <h3>AJOUTER UNE MATIERE </h3>
+                <h3>MODIFIER SALLE</h3>
 
             </div>
 
 
 
-            <form action="/Matieres/add/" method="post">
+            <form action="/Salles/edit/<?= $ids;?>" method="post">
+
                 <div class="form-group">
-                    <label for="">CHOISIR VOTRE CLASSE</label>
-                    <select name="idclasse" class="form-control">
-                        <?php
-                        foreach($listeClasses as $classe){
-                            ?>
-                            <option value="<?= $classe['idclasse'] ?>"><?= $classe['codeclasse'] ?></option>
-                            <?php
-                        }
-                        ?>
-                    </select>
+                    <label for="">CODE SALLE</label>
+                    <input type="text" name="codesalle"  class="form-control" value="<?= $details['codesalle']; ?>">
                 </div>
                 <div class="form-group">
-                    <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="">NOM COMPLET</label>
-                    <input type="text" name="libellematiere"  class="form-control">
+                    <label for="">LIEU</label>
+                    <input type="text" name="lieu"  class="form-control" value="<?= $details['lieu']; ?>">
                 </div>
                 <input type="submit" value="ENREGISTRER " class="btn btn-primary">
             </form>
@@ -98,3 +87,6 @@
         </div>
     </footer>
 </div>
+
+</body>
+</html>

@@ -40,12 +40,11 @@
             <div class="navbar navbar-default">
                 <ul class="nav navbar-nav">
                     <li ><a href="/">Accueil</a></li>
-                    <li ><a href="/Filieres" >Filieres</a></li>
+                    <li class="active"><a href="/Filieres" >Filieres</a></li>
                     <li><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
                     <li><a href="/Cours">Cours</a></li>
-                    <li class="active"><a href="/Matieres">Matieres</a></li>
-                    <li><a href="/Emploie">Emploie de temps</a></li>
+                    <li><a href="/Matieres">Matieres</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>
@@ -59,13 +58,13 @@
         <div class="col-sm-offset-1 col-sm-10">
 
             <div class="text-center">
-                <h3>AJOUTER UNE MATIERE </h3>
+                <h3>MODIFIER UNE MATIERE</h3>
 
             </div>
 
 
 
-            <form action="/Matieres/add/" method="post">
+            <form action="/Matieres/edit/<?= $idc;?>" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE CLASSE</label>
                     <select name="idclasse" class="form-control">
@@ -80,11 +79,11 @@
                 </div>
                 <div class="form-group">
                     <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control">
+                    <input type="text" name="codematiere"  class="form-control" value="<?= $details['codematiere']; ?>">
                 </div>
                 <div class="form-group">
-                    <label for="">NOM COMPLET</label>
-                    <input type="text" name="libellematiere"  class="form-control">
+                    <label for="">NOM COMPLET DE LA MATIERE</label>
+                    <input type="text" name="libellematiere"  class="form-control" value="<?= $details['libellematiere']; ?>">
                 </div>
                 <input type="submit" value="ENREGISTRER " class="btn btn-primary">
             </form>
@@ -98,3 +97,6 @@
         </div>
     </footer>
 </div>
+
+</body>
+</html>

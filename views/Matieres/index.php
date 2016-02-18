@@ -42,6 +42,7 @@
                     <li><a href="/Classes">Classes</a></li>
                     <li ><a href="/Salles">Salles</a></li>
                     <li class="active"><a href="/Matieres">Matieres</a></li>
+                    <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Cours">Cours</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
@@ -95,8 +96,8 @@
                             <td><?= $matiere['codematiere']; ?></td>
                             <td><?= $matiere['libellematiere']; ?></td>
                             <td><?= $matiere['codeclasse']; ?></td>
-                            <td><a href="/Matieres/delete/<?= $matiere['idsalle']; ?>">supprimer</a></td>
-                            <td><a href="/Matieres/edit/<?= $matiere['idsalle']; ?>">modifier</a></td>
+                            <td><a href="/Matieres/delete/<?= $matiere['idmatiere']; ?>">supprimer</a></td>
+                            <td><a href="/Matieres/edit/<?= $matiere['idmatiere']; ?>">modifier</a></td>
 
                         </tr>
                         <?php

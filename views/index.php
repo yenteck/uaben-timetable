@@ -61,12 +61,9 @@
                         Ici vous pouvez manager votre emploie de temps en toute liberté.
                         Veuillez choisir votre option dans le menu
 
-                        <a href="" class="btn btn-lg btn-primary ">AJOUTER UN COURS</a>
+                        <a href="/Emploie" class="btn btn-lg btn-primary ">AJOUTER UN EMPLOIE</a>
                     </div>
 
-                    <p class="text-capitalize text-center">MENU</p>
-
-                    <?= $message ; ?>
                 </div>
             </div>
 

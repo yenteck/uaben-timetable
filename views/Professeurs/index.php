@@ -1,16 +1,14 @@
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
-    <?php
-    include "inc/css.php";
-    ?>
+    <?php  include "inc/css.php"?>
 </head>
 <body>
+
+
+
 
 <header class="page-header" id="p-head">
     <div class="container" >
@@ -42,11 +40,10 @@
                     <li ><a href="/">Accueil</a></li>
                     <li ><a href="/Filieres" >Filieres</a></li>
                     <li><a href="/Classes">Classes</a></li>
-                    <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
-                    <li class="active"><a href="/Matieres">Matieres</a></li>
+                    <li ><a href="/Salles">Salles</a></li>
+                    <li><a href="/Matieres">Matieres</a></li>
                     <li><a href="/Emploie">Emploie de temps</a></li>
-                    <li><a href="/Professeurs">Profeseurs</a></li>
+                    <li class="active"><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>
         </div>
@@ -59,35 +56,43 @@
         <div class="col-sm-offset-1 col-sm-10">
 
             <div class="text-center">
-                <h3>AJOUTER UNE MATIERE </h3>
+                <h3>liste des Professeurs</h3>
+            </div>
 
+            <a href="/Professeurs/add" class="btn btn-info" style="margin-bottom: 10px">Ajouter un professeur</a>
+            <div>
+                <table class="table table-bordered table-info table-default">
+                    <tr>
+                        <th>N°</th>
+                        <th>NOM</th>
+                        <th>PRENOM</th>
+                        <th>NOM COURT</th>
+                        <th>CONTACT</th>
+
+                        <th colspan="2">ACTION</th>
+                    </tr>
+                    <?php
+                    $i=1;
+                    foreach ($allProfesseurs as $professeur) {
+                        ?>
+                        <tr>
+                            <td><?= $i; ?></td>
+                            <td><?= $professeur['nomprofesseur']; ?></td>
+                            <td><?= $professeur['prenomprofesseur']; ?></td>
+                            <td><?= $professeur['nomcourt']; ?></td>
+                            <td><?= $professeur['contact']; ?></td>
+                            <td><a href="/Professeurs/delete/<?= $professeur['idprofesseur']; ?>">supprimer</a></td>
+                            <td><a href="/Professeurs/edit/<?= $professeur['idprofesseur']; ?>">modifier</a></td>
+
+                        </tr>
+                        <?php
+                        $i++;
+                    }
+                    ?>
+                </table>
             </div>
 
 
-
-            <form action="/Matieres/add/" method="post">
-                <div class="form-group">
-                    <label for="">CHOISIR VOTRE CLASSE</label>
-                    <select name="idclasse" class="form-control">
-                        <?php
-                        foreach($listeClasses as $classe){
-                            ?>
-                            <option value="<?= $classe['idclasse'] ?>"><?= $classe['codeclasse'] ?></option>
-                            <?php
-                        }
-                        ?>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control">
-                </div>
-                <div class="form-group">
-                    <label for="">NOM COMPLET</label>
-                    <input type="text" name="libellematiere"  class="form-control">
-                </div>
-                <input type="submit" value="ENREGISTRER " class="btn btn-primary">
-            </form>
         </div>
     </div>
 
@@ -98,3 +103,6 @@
         </div>
     </footer>
 </div>
+
+</body>
+</html>

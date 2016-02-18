@@ -17,6 +17,8 @@ $listeSalles=getAllSalles();
 
 // liste matieres
 
+// on recuperer idclasse de l'emploie 9
+
 $listeMatieres=getAllMatieres();
 
 // liste prof

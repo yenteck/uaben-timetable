@@ -177,11 +177,9 @@
         </div>
 
     </div>
-</div>
 
 
-</div>
-</div>
+
 
 <!-- end the section-->
 <footer class="row" >

@@ -30,8 +30,8 @@ class Pdoconnect{
 }
 
 try{
-     $bdd=new PDO("mysql:dbname=siviletesda0ijjt;host=tviw6wn55xwxejwj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","jqtgwvqg6i63oquv","dbvhoq9nbjf9jnvz");
-    // $bdd=new PDO("mysql:host=localhost;dbname=timetable","yenteck","beboila");
+     //$bdd=new PDO("mysql:dbname=siviletesda0ijjt;host=tviw6wn55xwxejwj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com","jqtgwvqg6i63oquv","dbvhoq9nbjf9jnvz");
+     $bdd=new PDO("mysql:host=localhost;dbname=timetable","yenteck","beboila");
 }catch(Exception $e){
     die("erreur ".$e->getMessage());
 }
