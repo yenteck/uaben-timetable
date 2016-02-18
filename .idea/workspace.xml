@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Classes/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Emploie/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Filieres/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Matieres/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Matieres/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Professeurs/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Professeurs/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Salles/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Salles/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Classes/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Emploie/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Filieres/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Matieres/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Matieres/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Professeur/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Professeurs/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Professeurs/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Salles/delete.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/Salles/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Emploie/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Matieres/edit.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Professeurs/add.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Professeurs/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/Salles/edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/Emploie/details.php" afterPath="$PROJECT_DIR$/controller/Emploie/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Matieres/index.php" afterPath="$PROJECT_DIR$/model/Matieres/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Emploie/details.php" afterPath="$PROJECT_DIR$/views/Emploie/details.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Matieres/add.php" afterPath="$PROJECT_DIR$/views/Matieres/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Matieres/index.php" afterPath="$PROJECT_DIR$/views/Matieres/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
-    </list>
+    <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="" />
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -95,8 +62,8 @@
       <file leaf-file-name="edit.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Matieres/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.6086206">
-              <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+            <state vertical-scroll-proportion="5.357513">
+              <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -408,7 +375,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22230652" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -834,8 +801,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Matieres/edit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.6086206">
-          <caret line="81" column="26" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+        <state vertical-scroll-proportion="5.357513">
+          <caret line="94" column="14" selection-start-line="94" selection-start-column="14" selection-end-line="94" selection-end-column="14" />
           <folding />
         </state>
       </provider>
