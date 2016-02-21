@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c99d1c-3e4a-4886-a425-89fbc06b9055" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/api/gettimetable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/api/gettimetable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time_table.mwb" afterPath="$PROJECT_DIR$/time_table.mwb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/time_table.mwb.bak" afterPath="$PROJECT_DIR$/time_table.mwb.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/easyui-timetable-demo.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controller/Professeurs/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/database.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/goodsql.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/dnd3_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/model/PDO/pdoconnectPOSTGRES.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/api/classes.php" afterPath="$PROJECT_DIR$/controller/api/classes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/api/timetable.php" afterPath="$PROJECT_DIR$/controller/api/timetable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Matieres/edit.php" afterPath="$PROJECT_DIR$/views/Matieres/edit.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,7 +40,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0645162">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding />
             </state>
@@ -52,7 +50,7 @@
       <file leaf-file-name="gettimetable.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controller/api/gettimetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.580646">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
               <folding />
             </state>
@@ -62,8 +60,8 @@
       <file leaf-file-name="gettimetable.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/api/gettimetable.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49317408">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.17576791">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
               <folding>
                 <marker date="1455967405105" expanded="true" signature="70:756" placeholder="SELECT c.idc... matiere" />
                 <marker date="1455967405105" expanded="true" signature="606:716" placeholder="SELECT MAX(e... emploie" />
@@ -208,6 +206,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,9 +321,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Professeurs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,7 +429,7 @@
     <frame x="0" y="-6" width="1366" height="774" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23712121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24090908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -755,10 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.943686">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding>
-            <marker date="1455377429009" expanded="true" signature="88:205" placeholder="SELECT e.lib... emploie" />
-            <marker date="1455377429009" expanded="true" signature="363:1097" placeholder="SELECT c.idc... matiere" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,10 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <marker date="1455379470684" expanded="true" signature="70:862" placeholder="SELECT c.idc... matiere" />
-            <marker date="1455379470684" expanded="true" signature="760:814" placeholder="SELECT MAX(e... emploie" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22525597">
           <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -800,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05631399">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -808,7 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05631399">
           <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -816,13 +820,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.54948807">
           <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0645162">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding />
         </state>
@@ -832,13 +835,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6194539">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/api/gettimetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.580646">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
           <folding />
         </state>
@@ -846,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/api/gettimetable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49317408">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.17576791">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
           <folding>
             <marker date="1455967405105" expanded="true" signature="70:756" placeholder="SELECT c.idc... matiere" />
             <marker date="1455967405105" expanded="true" signature="606:716" placeholder="SELECT MAX(e... emploie" />
