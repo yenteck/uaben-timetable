@@ -2,7 +2,7 @@
 
     if(!empty($_GET['id'])){
 
-
+    	sleep(3);
         include_once 'model/api/timetable.php';
 
         $idclasse=(int) $_GET['id'];

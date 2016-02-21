@@ -50,7 +50,8 @@
             </div>
         </div>
     </div>
-    <!-- end the menu -->
+    <!-- end the menu
+    -->
     <!-- the section-->
 
 
