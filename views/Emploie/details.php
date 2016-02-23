@@ -163,6 +163,7 @@
                                 echo "<td>".$det['matiere']."</td>";
                                 echo "<td>".$det['salle']."</td>";
                                 echo "<td>".$det['professeur']."</td>";
+                                echo "<td> <a href='/Cours/delete/".$det['idcours']."'>supprimer</a></td>";
                                 echo "</tr>";
                             }
                             ?>
