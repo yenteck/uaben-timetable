@@ -69,8 +69,8 @@
 
             <!-- end the section-->
             <footer class="row" id="p-footer">
-                <div class="col-lg-10 col-lg-offset-1">
-                    the footer
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    This app has been developped by YENTECK .&#169 2016
                 </div>
             </footer>
         </div>

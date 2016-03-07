@@ -41,8 +41,8 @@
                     <li ><a href="/Filieres" >Filieres</a></li>
                     <li class="active"  ><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
                     <li><a href="/Matieres">Matieres</a></li>
+                    <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>
@@ -114,11 +114,7 @@
     </div>
 
     <!-- end the section-->
-    <footer class="row" >
-        <div class="col-lg-10 col-lg-offset-1" id="p-footer">
-            the footer
-        </div>
-    </footer>
+    
 </div>
 
 </body>

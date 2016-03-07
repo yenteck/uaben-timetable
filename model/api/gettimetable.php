@@ -7,6 +7,7 @@ function getEmploie($idclasse){
     $query="SELECT
     c.idcours,
     e.idemploie,
+    e.libelleemploie,
     m.codematiere,
     p.nomcourt,
     s.codesalle,
@@ -38,12 +39,21 @@ ORDER BY c.jour , c.datedebut";
 
     $req=$bdd->query($query);
 
+
     $tab=[];
+    $libelleEmploie="";
+
     foreach($req as $r){
+
+        $libelleEmploie=$r['libelleemploie'];
         $tab[($r['jour'])][($r['heure'])]['matiere']=$r['codematiere'];
         $tab[($r['jour'])][($r['heure'])]['salle']=$r['codesalle'];
         $tab[($r['jour'])][($r['heure'])]['professeur']=$r['nomcourt'];
         $tab[($r['jour'])][($r['heure'])]['idcours']=$r['idcours'];
     }
-    return $tab;
+
+    $t['empData']=$tab;
+    $t['empTitle']=$libelleEmploie;
+    return $t;
+
 }

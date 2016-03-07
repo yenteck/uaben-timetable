@@ -80,7 +80,7 @@
             <div class="list-group">
                 <?php
                 foreach ($listeEmploie as $emploie) {
-                    echo "<li class='list-group-item'><a href='/Emploie/details/".$emploie['idemploie']."'>".$emploie['libelleemploie']."</a></li>";
+                    echo "<li class='list-group-item'><a href='/Emploie/details/".$emploie['idemploie']."'>".$emploie['libelleemploie']."</a> <a class='label label-danger pull-right' href='/Emploie/delete/".$emploie['idemploie']."'>Supprimer</a> </li>";
                 }
                 ?>
             </div>
@@ -93,11 +93,6 @@
     </div>
 
     <!-- end the section-->
-    <footer class="row" >
-        <div class="col-lg-10 col-lg-offset-1" id="p-footer">
-            the footer
-        </div>
-    </footer>
 </div>
 
 

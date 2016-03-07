@@ -183,11 +183,7 @@
 
 
 <!-- end the section-->
-<footer class="row" >
-    <div class="col-lg-10 col-lg-offset-1" id="p-footer">
-        the footer
-    </div>
-</footer>
+
 </div>
 
 
