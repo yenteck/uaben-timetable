@@ -44,9 +44,10 @@ ORDER BY c.jour , c.datedebut";
     $libelleEmploie="";
 
     foreach($req as $r){
-
+        $tmp='';
+        if($r['estdevoir']>0) $tmp='DEV-';
         $libelleEmploie=$r['libelleemploie'];
-        $tab[($r['jour'])][($r['heure'])]['matiere']=$r['codematiere'];
+        $tab[($r['jour'])][($r['heure'])]['matiere']=$tmp.$r['codematiere'];
         $tab[($r['jour'])][($r['heure'])]['salle']=$r['codesalle'];
         $tab[($r['jour'])][($r['heure'])]['professeur']=$r['nomcourt'];
         $tab[($r['jour'])][($r['heure'])]['idcours']=$r['idcours'];
