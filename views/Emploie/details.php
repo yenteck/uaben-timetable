@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <link rel="stylesheet" href="../../css/bootstrap-flatly.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/bootstrap-datetimepicker.min.css">
     <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
@@ -241,11 +241,16 @@
                 type:"post",
                 url:"/Cours/add",
                 data:send,
+                beforeSend: function () {
+                    loader(true);
+                },
                 success: function (resp) {
                     alert(resp);
+                    loader(false);
                 },
                 error: function () {
-                    alert("FAIL ")
+                    alert("FAIL ");
+                    loader(false);
                 }
             })
         })
@@ -254,25 +259,41 @@
         //delete
         $("[supprimer]").on("click", function (e) {
             e.preventDefault();
+
             var idcours=$(this).attr("supprimer");
-            alert(idcours);
+            var paren=$(this).parent().parent();
+            if(confirm("Supprimer ?"))
             $.ajax({
                 type:"get",
                 url:"/Cours/delete/"+idcours,
                 beforeSend: function () {
-
-                    $(this).html("<img src='images/ajax_loader.gif'>");
+                    loader(true);
                 },
                 success:function(data){
                     alert(data);
+                    loader(false);
+                    paren.hide();
                 },
                 error: function() {
                     alert("error");
+                    loader(false);
                 }
             })
         })
     })
+
+    function loader(x){
+        if(x==false) $("#loader").hide("slow");
+        else $("#loader").show("slow");
+    }
 </script>
 
+
+<div id="loader">
+    <div class="loader-content">
+        <img src="../../images/ajax_loader.gif" alt=""><br>
+        <b>chargement ...</b>
+    </div>
+</div>
 </body>
 </html>

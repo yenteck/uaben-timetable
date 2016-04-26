@@ -2,6 +2,7 @@
 
 $from = $_SERVER['HTTP_REFERER']; // coming from link
 
+sleep(5);
 if(isset($_GET['id'])){
 
     include 'model/Cours/delete.php';

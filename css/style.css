@@ -12,6 +12,22 @@ nav {
   border-radius: 5px;
   margin-top: 50px; }
 
+#loader {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: none; }
+  #loader .loader-content {
+    border: solid 1px #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 30% auto;
+    text-align: center;
+    background: #fff; }
+
 /** states **/
 .isHidden {
   display: none; }
