@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../../css/bootstrap-flatly.min.css">
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
 </head>
 <body>
 
@@ -63,13 +64,14 @@
 
             <div>
                 <a href="/Emploie" CLASS="btn btn-danger">RETOUR</a>
+                <a href="/Emploie/print/<?=$idemploie?>" class="btn btn-info"><span class="glyphicon glyphicon-print"> </span> IMPRIMER</a>
                 <a class="btn btn-success pull-right" style="margin-bottom: 10px" id="btn-add-cours">Ajouter Un cours</a>
             </div>
 
             <hr>
 
             <div id="add-cours-div" class="isHidden">
-                <form action="/Cours/add" method="post">
+                <form action="/Cours/add" method="post" id="add-cours">
 
 
                     <div class="form-group col-lg-3">
@@ -85,12 +87,12 @@
 
                     <div class="form-group col-lg-3">
                         <label for="">DATE DEBUT </label>
-                        <input type="text" class="form-control datetimepicker" name="datedebut">
+                        <input type="text" class="form-control datetimepicker" name="datedebut" required>
                     </div>
 
                     <div class="form-group col-lg-3">
                         <label for="">DATE FIN </label>
-                        <input type="text" class="form-control datetimepicker" name="datefin">
+                        <input type="text" class="form-control datetimepicker" name="datefin" required>
                     </div>
 
                         <!-- id de l'emploie caché -->
@@ -99,10 +101,10 @@
 
                     <div class="form-group col-lg-3">
                         <label for="">SALLE  </label>
-                        <select name="idsalle" class="form-control">
+                        <select name="idsalle" class="selectpicker bs-select-hidden" data-live-search="true">
                         <?php
                         foreach ($listeSalles as $salle) {
-                            echo "<option value='".$salle['idsalle']."'>".$salle['codesalle']."</option>";
+                            echo "<option value='".$salle['idsalle']."'>".$salle['codesalle'].$salle['lieu']."</option>";
                         }
                         ?>
                         </select>
@@ -110,7 +112,7 @@
 
                     <div class="form-group col-lg-3">
                         <label for="">MATIERE  </label>
-                        <select name="idmatiere" class="form-control">
+                        <select name="idmatiere" class="selectpicker bs-select-hidden" data-live-search="true">
                             <?php
                             foreach ($listeMatieres as $matiere) {
                                 echo "<option value='".$matiere['idmatiere']."'>".$matiere['codematiere']."</option>";
@@ -122,13 +124,18 @@
 
                     <div class="form-group col-lg-3">
                         <label for="">PROFFESSEUR  </label>
-                        <select name="idprofesseur" class="form-control">
+                        <select name="idprofesseur"  class="selectpicker bs-select-hidden" data-live-search="true">
                             <?php
                             foreach ($listeProfesseurs as $professeur) {
                                 echo "<option value='".$professeur['idprofesseur']."'>".$professeur['nomcourt']."</option>";
                             }
                             ?>
                         </select>
+                    </div>
+
+                    <div class="form-group col-lg-3">
+                        <label for="">DEVOIR (cocher si devoir) </label>
+                        <input type="checkbox" name="devoir" class="form-control" value="dev">
                     </div>
 
                     <input type="submit" class="btn btn-primary pull-right" value="ENREGISTRER">
@@ -163,7 +170,7 @@
                                 echo "<td>".$det['matiere']."</td>";
                                 echo "<td>".$det['salle']."</td>";
                                 echo "<td>".$det['professeur']."</td>";
-                                echo "<td> <a href='/Cours/delete/".$det['idcours']."'>supprimer</a></td>";
+                                echo "<td> <a href='/Cours/delete/".$det['idcours']."' supprimer=".$det['idcours'].">supprimer</a><span class='loader'></span></td>";
                                 echo "</tr>";
                             }
                             ?>
@@ -191,6 +198,7 @@
 <script src="../../js/bootstrap.min.js"></script>
 <script src="../../js/moment.min.js"></script>
 <script src="../../js/bootstrap-datetimepicker.min.js"></script>
+<script src="../../js/bootstrap-select.js"></script>
 <script>
     $(function () {
 
@@ -221,6 +229,47 @@
                 x=true;
             }
 
+        })
+
+        // enregistrer un cours
+        $("#add-cours").on("submit", function (e) {
+            e.preventDefault();
+            var send=$(this).serialize();
+            console.dir(send)
+
+            $.ajax({
+                type:"post",
+                url:"/Cours/add",
+                data:send,
+                success: function (resp) {
+                    alert(resp);
+                },
+                error: function () {
+                    alert("FAIL ")
+                }
+            })
+        })
+
+
+        //delete
+        $("[supprimer]").on("click", function (e) {
+            e.preventDefault();
+            var idcours=$(this).attr("supprimer");
+            alert(idcours);
+            $.ajax({
+                type:"get",
+                url:"/Cours/delete/"+idcours,
+                beforeSend: function () {
+
+                    $(this).html("<img src='images/ajax_loader.gif'>");
+                },
+                success:function(data){
+                    alert(data);
+                },
+                error: function() {
+                    alert("error");
+                }
+            })
         })
     })
 </script>

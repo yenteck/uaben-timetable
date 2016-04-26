@@ -9,6 +9,6 @@ if(isset($_GET['id'])){
     $rep=deleteCours((int) $_GET['id']);
 
     if($rep){
-        header("location:$from");
+        echo "Cours supprimé";
     }else echo '<h3>Impossible de supprimer cette filiere</h3>';
 }
