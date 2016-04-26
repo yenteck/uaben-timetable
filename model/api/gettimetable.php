@@ -12,7 +12,7 @@ function getEmploie($idclasse){
     p.nomcourt,
     s.codesalle,
     cla.codeclasse,
-    c.jour,
+    c.jour,c.estdevoir,
     CONCAT(DATE_FORMAT(c.datedebut, '%Hh-%i -'),
             DATE_FORMAT(c.datefin, ' %Hh-%i')) heure
 FROM
