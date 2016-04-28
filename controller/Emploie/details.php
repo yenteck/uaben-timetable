@@ -29,5 +29,8 @@ $listeProfesseurs= getAllProfesseurs();
 
 $tabEmploie=getTabEmploie($idemploie);
 
-
+if($_POST['ajax_query']){
+    echo json_encode($tabEmploie);
+    exit();
+}
 require 'views/Emploie/details.php';

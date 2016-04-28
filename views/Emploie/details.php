@@ -147,12 +147,12 @@
         <div class="col-sm-offset-1 col-sm-10">
 
 
-            <fieldset >
+            <fieldset id="testpanel">
                 <legend style="border-top: 5px solid #060606;">Programme</legend>
 
 
                 <?php
-
+                /*
                 // pour chaque jour on affiche son emploie
                 foreach($tabEmploie as $jour=>$te){
                     ?>
@@ -180,8 +180,11 @@
                 </div>
                 <?php
                 }
+                */
                 ?>
             </fieldset>
+
+
         </div>
 
     </div>
@@ -209,6 +212,7 @@
             format:'HH:mm'
         });
 
+        displayData();
 
         var x=true;
         $('#btn-add-cours').on('click',function(e){
@@ -247,6 +251,7 @@
                 success: function (resp) {
                     alert(resp);
                     loader(false);
+                    displayData();
                 },
                 error: function () {
                     alert("FAIL ");
@@ -255,36 +260,103 @@
             })
         })
 
-
+        bindDelete();
         //delete
+
+
+
+
+    })
+    function bindDelete(){
         $("[supprimer]").on("click", function (e) {
             e.preventDefault();
 
             var idcours=$(this).attr("supprimer");
             var paren=$(this).parent().parent();
             if(confirm("Supprimer ?"))
-            $.ajax({
-                type:"get",
-                url:"/Cours/delete/"+idcours,
-                beforeSend: function () {
-                    loader(true);
-                },
-                success:function(data){
-                    alert(data);
-                    loader(false);
-                    paren.hide();
-                },
-                error: function() {
-                    alert("error");
-                    loader(false);
-                }
-            })
+                $.ajax({
+                    type:"get",
+                    url:"/Cours/delete/"+idcours,
+                    beforeSend: function () {
+                        loader(true);
+                    },
+                    success:function(data){
+                        alert(data);
+                        loader(false);
+                        paren.hide();
+                    },
+                    error: function() {
+                        alert("error");
+                        loader(false);
+                    }
+                })
         })
-    })
+    }
 
     function loader(x){
         if(x==false) $("#loader").hide("slow");
         else $("#loader").show("slow");
+    }
+
+
+
+    function  displayData(){
+
+        $.ajax({
+            type:"post",
+            data:"ajax_query=true",
+            beforeSend: function () {
+                loader(true);
+            },
+            url:"/Emploie/details/"+<?=$idemploie?>,
+            success: function (data) {
+                var data_json=JSON.parse(data);
+                if(data_json){
+                    //affichage
+                    $("#testpanel").html('<legend style="border-top: 5px solid #060606;">Programme</legend>');
+                    $.each(data_json , function (key,value) {
+
+                        var panel= $('<div class="panel panel-default"></div>');
+                        var panel_head=$('<div class="panel-heading">'+dateTostring(key)+'</div>');
+                        var panel_b=$('<div class="panel-body"></div>');
+
+                        var p_b_table=$('<table class="table"></table>');
+
+                        $.each(value, function (heure,det) {
+                            var tr=$('<tr></tr>');
+                            tr.append("<td>"+heure+"</td>");
+                            tr.append("<td>"+det.matiere+"</td>");
+                            tr.append("<td>"+det.salle+"</td>");
+                            tr.append("<td>"+det.professeur+"</td>");
+                            tr.append("<td><a href='/Cours/delete/"+det.idcours+"' supprimer='"+det.idcours+"'>Supprimer</a></td>");
+
+                            p_b_table.append(tr);
+                        })
+
+                        panel_b.append(p_b_table);
+
+                        panel.append(panel_head);
+                        panel.append(panel_b);
+
+                        $("#testpanel").append(panel);
+                    })
+                    bindDelete();
+                }
+                loader(false);
+            },
+            error: function () {
+                loader(false);
+                alert("error");
+            }
+
+        })
+    }
+
+    function dateTostring(i){
+
+        var tab=['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
+
+        return tab[i];
     }
 </script>
 
