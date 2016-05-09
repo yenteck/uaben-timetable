@@ -58,7 +58,7 @@
 
 
             <div class="form-classe">
-                <form action="/public" method="post">
+                <form action="https://uaben-timetable.herokuapp.com/public" method="post">
 
                     <select name="idclasse" id="idclasse" class="selectpicker bs-select-hidden" data-live-search="true">
                         <?php
