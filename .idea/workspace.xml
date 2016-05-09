@@ -63,7 +63,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/ticket.php" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/utf8.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Public/index.php" afterPath="$PROJECT_DIR$/views/Public/index.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +88,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/Public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+            <state vertical-scroll-proportion="-7.451613">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +108,7 @@
       <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4334471">
+            <state vertical-scroll-proportion="0.6757679">
               <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
               <folding />
             </state>
@@ -533,15 +533,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/Public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="60" column="30" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+        <state vertical-scroll-proportion="-7.451613">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4334471">
+        <state vertical-scroll-proportion="0.6757679">
           <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="6" />
           <folding />
         </state>
