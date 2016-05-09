@@ -3,12 +3,16 @@
 
         global $bdd;
 
-        $query="SELECT e.libelleemploie , c.codeclasse FROM emploie e , classe c WHERE idemploie=$idemploie and c.idclasse=e.idclasse ";
+        $query="SELECT e.expired, DATE_FORMAT(e.datedebut,'%d %M') datedebut , DATE_FORMAT(e.datefin,'%d %M') datefin  , c.codeclasse FROM emploie e , classe c WHERE idemploie=$idemploie and c.idclasse=e.idclasse ";
 
         $req=$bdd->query($query)->fetch();
 
 
-        return $req;
+        return [
+            "libelleemploie"=>strtoupper("EMPLOI DU ".$req["datedebut"]." AU ".$req["datefin"]),
+            "codeclasse"=>$req["codeclasse"],
+            "expired"=>$req["expired"]
+        ];
 
     }
 
@@ -20,7 +24,7 @@
             c.idcours,
             m.codematiere,
             p.nomcourt,
-            s.codesalle,
+            s.codesalle,e.expired,
             cla.codeclasse,
              c.jour,c.estdevoir,s.lieu,
             CONCAT(DATE_FORMAT(c.datedebut, '%Hh-%i -'),
@@ -51,6 +55,7 @@
 
             $tab[($r['jour'])][($r['heure'])]['matiere']=$tmp.$r['codematiere'];
             $tab[($r['jour'])][($r['heure'])]['salle']=$r['codesalle'];
+            $tab[($r['jour'])][($r['heure'])]['expired']=$r['expired'];
             $tab[($r['jour'])][($r['heure'])]['professeur']=$r['nomcourt'];
             $tab[($r['jour'])][($r['heure'])]['idcours']=$r['idcours'];
         }

@@ -102,11 +102,12 @@
     </div>
 
     <!-- end the section-->
-    <footer class="row" >
-        <div class="col-lg-10 col-lg-offset-1" id="p-footer">
-            the footer
+    <footer class="row" id="p-footer">
+        <div class="col-lg-10 col-lg-offset-1 text-center" >
+            coded with <b style="font-size: 18px;">♥</b> by IT CLUB TEAM
         </div>
     </footer>
+</div>
 </div>
 
 </body>

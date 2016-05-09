@@ -7,7 +7,8 @@ function getEmploie($idclasse){
     $query="SELECT
     c.idcours,
     e.idemploie,
-    e.libelleemploie,
+    DATE_FORMAT(e.datedebut,'%d %M') datedebut ,
+     DATE_FORMAT(e.datefin,'%d %M') datefin,
     m.codematiere,
     p.nomcourt,
     s.codesalle,
@@ -46,7 +47,7 @@ ORDER BY c.jour , c.datedebut";
     foreach($req as $r){
         $tmp='';
         if($r['estdevoir']>0) $tmp='DEV-';
-        $libelleEmploie=$r['libelleemploie'];
+        $libelleEmploie=strtoupper("EMPLOI DU ".$r['datedebut']." AU ".$r['datefin']);
         $tab[($r['jour'])][($r['heure'])]['matiere']=$tmp.$r['codematiere'];
         $tab[($r['jour'])][($r['heure'])]['salle']=$r['codesalle'];
         $tab[($r['jour'])][($r['heure'])]['professeur']=$r['nomcourt'];

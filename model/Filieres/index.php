@@ -4,7 +4,7 @@
 
         $rows=$bdd->query("SELECT * FROM filiere WHERE idutilisateur=".$_SESSION['idutilisateur']);
 
-        return $rows;
+        return $rows->fetchAll();
     }
 
     function getClasses($idfiliere=false){
@@ -14,11 +14,11 @@
         // if the idfiliere is set so the request come from classes page
         if(!empty($idfiliere)){
 
-            $req=$bdd->prepare("SELECT c.idclasse ,c.codeclasse , c.libelleclasse , f.codefiliere FROM classe c , filiere f WHERE c.idfiliere = f.idfiliere and f.idfiliere=? AND idutilisateur=".$_SESSION['idutilisateur']." ORDER BY c.codeclasse ASC" );
+            $req=$bdd->prepare("SELECT c.idclasse ,c.codeclasse  , f.codefiliere FROM classe c , filiere f WHERE c.idfiliere = f.idfiliere and f.idfiliere=? AND idutilisateur=".$_SESSION['idutilisateur']." ORDER BY c.codeclasse ASC" );
             $req->execute(array($idfiliere));
         }else{
 
-            $req=$bdd->prepare("SELECT c.idclasse , c.codeclasse , c.libelleclasse , f.codefiliere FROM classe c , filiere f WHERE c.idfiliere = f.idfiliere AND idutilisateur=".$_SESSION['idutilisateur']." ORDER BY c.codeclasse ASC");
+            $req=$bdd->prepare("SELECT c.idclasse , c.codeclasse  , f.codefiliere FROM classe c , filiere f WHERE c.idfiliere = f.idfiliere AND idutilisateur=".$_SESSION['idutilisateur']." ORDER BY c.codeclasse ASC");
             $req->execute();
         }
 

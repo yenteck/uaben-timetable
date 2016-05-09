@@ -65,7 +65,14 @@
             <div>
                 <a href="/Emploie" CLASS="btn btn-danger">RETOUR</a>
                 <a href="/Emploie/print/<?=$idemploie?>" class="btn btn-info"><span class="glyphicon glyphicon-print"> </span> IMPRIMER</a>
-                <a class="btn btn-success pull-right" style="margin-bottom: 10px" id="btn-add-cours">Ajouter Un cours</a>
+                <?php
+                if($lib_classe['expired']==0){
+                    ?>
+                    <a class="btn btn-success pull-right" style="margin-bottom: 10px" id="btn-add-cours">Ajouter Un cours</a>
+                    <?php
+                }
+                ?>
+
             </div>
 
             <hr>
@@ -237,27 +244,40 @@
 
         // enregistrer un cours
         $("#add-cours").on("submit", function (e) {
-            e.preventDefault();
-            var send=$(this).serialize();
-            console.dir(send)
+                e.preventDefault();
+                var send=$(this).serialize();
 
-            $.ajax({
-                type:"post",
-                url:"/Cours/add",
-                data:send,
-                beforeSend: function () {
-                    loader(true);
-                },
-                success: function (resp) {
-                    alert(resp);
-                    loader(false);
-                    displayData();
-                },
-                error: function () {
-                    alert("FAIL ");
-                    loader(false);
+                var dbebut =$("input[name='datedebut']").val();
+                var dfin =$("input[name='datefin']").val();
+                var date1=new Date("December 31, 2015 "+dbebut);
+                var date2=new Date("December 31, 2015 "+dfin);
+                if(date2<=date1){
+                    alert("verifier votre heure de debut et heure de fin ");
+                    $("input[name='datedebut']").css("borderColor","red");
+                    $("input[name='datefin']").css("borderColor","red");
+                    throw  new Error("ilpoo")
+                }else{
+                    $("input[name='datedebut']").css("borderColor","#ddd");
+                    $("input[name='datefin']").css("borderColor","#ddd");
                 }
-            })
+
+                $.ajax({
+                    type:"post",
+                    url:"/Cours/add",
+                    data:send,
+                    beforeSend: function () {
+                        loader(true);
+                    },
+                    success: function (resp) {
+                        alert(resp);
+                        loader(false);
+                        displayData();
+                    },
+                    error: function () {
+                        alert("FAIL ");
+                        loader(false);
+                    }
+                })
         })
 
         bindDelete();
@@ -328,6 +348,7 @@
                             tr.append("<td>"+det.matiere+"</td>");
                             tr.append("<td>"+det.salle+"</td>");
                             tr.append("<td>"+det.professeur+"</td>");
+                            if(det.expired==0)
                             tr.append("<td><a href='/Cours/delete/"+det.idcours+"' supprimer='"+det.idcours+"'>Supprimer</a></td>");
 
                             p_b_table.append(tr);

@@ -9,6 +9,7 @@
     <?php
     include "inc/css.php";
     ?>
+    <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
 </head>
 <body>
 
@@ -40,11 +41,11 @@
             <div class="navbar navbar-default">
                 <ul class="nav navbar-nav">
                     <li ><a href="/">Accueil</a></li>
-                    <li class="active"><a href="/Filieres" >Filieres</a></li>
-                    <li><a href="/Classes">Classes</a></li>
+                    <li ><a href="/Filieres" >Filieres</a></li>
+                    <li class="active"  ><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
                     <li><a href="/Matieres">Matieres</a></li>
+                    <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>
@@ -67,7 +68,7 @@
             <form action="/Classes/edit/<?= $idc;?>" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE FILIERE</label>
-                    <select name="idfiliere" class="form-control">
+                    <select name="idfiliere" class="form-control selectpicker bs-select-hidden" data-live-search="true">
                         <?php
                         foreach($listeFilieres as $filiere){
                             ?>
@@ -93,6 +94,8 @@
     <!-- end the section-->
   
 </div>
-
+<script src="../../js/jquery-2.1.4.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap-select.js"></script>
 </body>
 </html>

@@ -5,7 +5,6 @@
     require_once "model/PDO/pdoconnect.php";
 
     //error_reporting(E_ALL);
-
     header('Access-Control-Allow-Origin: *');
     // traitement des requettes qui ont pas besoin de securité
 
@@ -13,6 +12,18 @@
     {
 
         include_once('controller/'.$_GET['section'].'/'.$_GET['action'].'.php');
+        exit;
+    }
+    if (isset($_GET['section']) and $_GET['section']=='Emploie' AND isset($_GET['action']) AND $_GET['action']=='print' )
+    {
+
+        include_once('controller/'.$_GET['section'].'/'.$_GET['action'].'.php');
+        exit;
+    }
+    if (isset($_GET['section']) and $_GET['section']=='public')
+    {
+
+        include_once('controller/'.$_GET['section'].'/index.php');
         exit;
     }
     // la connection

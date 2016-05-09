@@ -3,9 +3,9 @@
 include_once "model/Classes/edit.php";
 $page_title="Page d'edition ";
 
-if(!empty($_POST['codeclasse']) and !empty($_POST['libelleclasse'])){
+if(!empty($_POST['codeclasse']) and !empty($_POST['idfiliere'])){
 
-    if(updateClasse($_GET['id'],$_POST['codeclasse'],$_POST['libelleclasse'],$_POST['idfiliere']))
+    if(updateClasse($_GET['id'],$_POST['codeclasse'],$_POST['idfiliere']))
 
         header("location:/Classes");
 
@@ -16,9 +16,12 @@ if(!empty($_POST['codeclasse']) and !empty($_POST['libelleclasse'])){
     $listeFilieres=getAll();
     
     $idc=(int) $_GET['id'];
-
     $details=getDetailsClasse($idc);
-    var_dump($details);
+    if($_POST["get"]=="json"){
+        echo json_encode($details);
+        exit();
+    }
+
 
 
     include_once  "views/Classes/edit.php";

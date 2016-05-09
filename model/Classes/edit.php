@@ -1,12 +1,12 @@
 <?php
-function updateClasse($id,$code,$libelle,$idfiliere){
+function updateClasse($id,$code,$idfiliere){
 
     global $bdd;
 
 
-    $req=$bdd->prepare("UPDATE  classe  set codeclasse=? , libelleclasse=? , idfiliere=? WHERE idclasse=?");
+    $req=$bdd->prepare("UPDATE  classe  set codeclasse=? , idfiliere=? WHERE idclasse=?");
 
-    $rows=$req->execute(array($code,$libelle,$idfiliere,$id));
+    $rows=$req->execute(array($code,$idfiliere,$id));
 
     return $rows;
 
@@ -24,8 +24,6 @@ function getDetailsClasse($idclasse){
     $req->closeCursor();
 
     $details['code']=$rows[0]['codeclasse'];
-
-    $details['libelle']=$rows[0]['libelleclasse'];
     $details['idfiliere']=$rows[0]['idfiliere'];
 
     return $details;

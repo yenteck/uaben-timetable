@@ -40,11 +40,11 @@
             <div class="navbar navbar-default">
                 <ul class="nav navbar-nav">
                     <li ><a href="/">Accueil</a></li>
-                    <li class="active"><a href="/Filieres" >Filieres</a></li>
+                    <li ><a href="/Filieres" >Filieres</a></li>
                     <li><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
-                    <li><a href="/Matieres">Matieres</a></li>
+                    <li class="active"><a href="/Matieres">Matieres</a></li>
+                    <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
                 </ul>
             </div>

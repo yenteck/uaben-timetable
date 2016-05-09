@@ -41,12 +41,13 @@
     <div class="row" id="p-section">
         <div class="col-sm-offset-4 col-sm-4">
 
-            <hr>
             <form action="/Auth/login" method="post">
 
 
                 <fieldset>
-                    <legend>Se connecter</legend>
+                    <div class="text-center">
+                        <img src="images/isi.jpg" alt="">
+                    </div>
                     <div class="form-group">
                         <label for="">PSEUDO</label>
                         <input type="text" name="pseudo" class="form-control">
@@ -58,8 +59,6 @@
                     <input type="submit" value="se connecter" class="btn btn-info">
                 </fieldset>
 
-                <?php  print_r($_SESSION); ?>
-
             </form>
             <?php //var_dump(__DIR__) ; ?>
         </div>
@@ -68,7 +67,7 @@
     <!-- end the section-->
     <footer class="row" >
         <div class="col-lg-10 col-lg-offset-1 text-center" id="p-footer">
-            This app has been developped by YENTECK .&#169 2016
+            coded with <b style="font-size: 18px;">♥</b> by IT CLUB TEAM
         </div>
     </footer>
 </div>

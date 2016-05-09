@@ -18,7 +18,7 @@
 
 
 </style>
-<page backcolor="" backtop="10mm" backleft="10mm" backright="10mm" backbottom='10mm' >
+<page backcolor="" backtop="0" backleft="10mm" backright="10mm" backbottom='3mm' >
     <page_footer >
         <div class="" style="text-align:center">
             <hr>
@@ -30,19 +30,20 @@
 
     <table>
         <tr >
-            <td style="width:75%" > <h3>UNIVERSITÉ AUBE-NOUVELLE </h3>
-                <h4><?= date('d / m /Y'); ?></h4>
+            <td style="width:75%" >
+                <img src="images/isi.jpg" style="width: 130px"><br>
+                <b>UNIVERSITÉ AUBE-NOUVELLE</b>
             </td>
             <td style="width:25%;text-align: left;">
                 <h3><?=$codeclasse ?></h3>
                 <h4><?=$libclasse ?></h4>
             </td>
         </tr>
-    </table>
+    </table><br>
 
     <div style="text-align: center;">
         <h3> <u><?= strtoupper($libemploie) ?></u>  <!--<u>EMPLOIE DE TEMPS </u> ( 02 AVRIL -  08 AVRIL )--></h3>
-    </div>
+    </div><br>
     <table class="timetable" >
 
         <tr >

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
     <?php  include "inc/css.php"?>
+    <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
 </head>
 <body>
 
@@ -62,7 +63,7 @@
             <div class="form-group">
                 <form action="/Matieres" method="post">
                     <label for="">CHOISIR VOTRE FILIERE</label>
-                    <select name="idclasse" id="">
+                    <select name="idclasse" id="idclasse" class="selectpicker bs-select-hidden" data-live-search="true">
                         <?php
                         foreach($listeClasses as $classe){
                             ?>
@@ -118,5 +119,11 @@
     </footer>
 </div>
 
+<script src="../../js/jquery-2.1.4.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap-select.js"></script>
+<script>
+    idclasse.value=<?=$idclasse?>
+</script>
 </body>
 </html>

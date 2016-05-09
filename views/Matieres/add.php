@@ -9,6 +9,8 @@
     <?php
     include "inc/css.php";
     ?>
+    <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap-tagsinput.css">
 </head>
 <body>
 
@@ -43,7 +45,6 @@
                     <li ><a href="/Filieres" >Filieres</a></li>
                     <li><a href="/Classes">Classes</a></li>
                     <li><a href="/Salles">Salles</a></li>
-                    <li><a href="/Cours">Cours</a></li>
                     <li class="active"><a href="/Matieres">Matieres</a></li>
                     <li><a href="/Emploie">Emploie de temps</a></li>
                     <li><a href="/Professeurs">Profeseurs</a></li>
@@ -68,7 +69,7 @@
             <form action="/Matieres/add/" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE CLASSE</label>
-                    <select name="idclasse" class="form-control">
+                    <select multiple name="idclasse" data-role="tagsinput"  data-live-search="true">
                         <?php
                         foreach($listeClasses as $classe){
                             ?>
@@ -98,3 +99,9 @@
         </div>
     </footer>
 </div>
+<script src="../../js/jquery-2.1.4.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../js/bootstrap-select.js"></script>
+<script src="../../js/bootstrap-tagsinput.min.js"></script>
+</body>
+</html>

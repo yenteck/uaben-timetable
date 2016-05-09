@@ -69,8 +69,8 @@
 
             <!-- end the section-->
             <footer class="row" id="p-footer">
-                <div class="col-lg-10 col-lg-offset-1 text-center">
-                    This app has been developped by YENTECK .&#169 2016
+                <div class="col-lg-10 col-lg-offset-1 text-center" >
+                    coded with <b style="font-size: 18px;">♥</b> by IT CLUB TEAM
                 </div>
             </footer>
         </div>

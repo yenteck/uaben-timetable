@@ -5,12 +5,12 @@ nav {
   border: solid 1px; }
 
 #p-footer {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
   border: solid 1px #ddd;
   border-radius: 5px;
-  margin-top: 50px; }
+  margin-top: 280px; }
 
 #loader {
   top: 0;
@@ -27,6 +27,9 @@ nav {
     margin: 30% auto;
     text-align: center;
     background: #fff; }
+
+.padding td {
+  padding: 5px; }
 
 /** states **/
 .isHidden {
