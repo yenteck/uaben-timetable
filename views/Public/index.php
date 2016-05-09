@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <?php  include "inc/css.php"?>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="../../css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
     <link rel="stylesheet" href="../../css/public.css">
     <link href='https://fonts.googleapis.com/css?family=Lobster|Open+Sans' rel='stylesheet' type='text/css'>
     <style media="screen">
