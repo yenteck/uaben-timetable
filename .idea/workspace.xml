@@ -2,68 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28adbad9-e820-4171-a1ac-80f4e8c4e8e8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controller/Public/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/bookmark.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple00.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple01.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple02.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple03.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple04.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple05.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple06.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple07.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple08.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple09.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple10.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple11.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple12.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/exemple13.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/forms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/groups.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/js1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/js2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/js3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/qrcode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/radius.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/regle.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/bas_page.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple00.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple01.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple02.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple03.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple04.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple05.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple06.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple06.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple07a.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple07b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple08.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple09.png.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple10.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple10a.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple10b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple10c.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple11.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple12.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/exemple13.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/forms.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/puce.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/puce2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/regle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/svg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/res/tcpdf_logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/svg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/svg_tiger.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/svg_tree.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/ticket.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/examples/utf8.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/Emploie/ajax.php" afterPath="$PROJECT_DIR$/controller/Emploie/ajax.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66211605">
+            <state vertical-scroll-proportion="-12.5161295">
               <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
               <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
@@ -118,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/Emploie/ajax.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.322581">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.11262798">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,8 +133,8 @@
         <option value="$PROJECT_DIR$/views/Public/index.php" />
         <option value="$PROJECT_DIR$/css/public.scss" />
         <option value="$PROJECT_DIR$/controller/Emploie/print.php" />
-        <option value="$PROJECT_DIR$/controller/Emploie/ajax.php" />
         <option value="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
+        <option value="$PROJECT_DIR$/controller/Emploie/ajax.php" />
       </list>
     </option>
   </component>
@@ -672,6 +611,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/model/Emploie/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1462146904825" expanded="true" signature="82:222" placeholder="SELECT datef... emploie" />
+            <marker date="1462146904825" expanded="true" signature="162:212" placeholder="SELECT max(i... emploie" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5161295">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controller/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0645162">
@@ -690,30 +649,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/Emploie/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1462146904825" expanded="true" signature="82:222" placeholder="SELECT datef... emploie" />
-            <marker date="1462146904825" expanded="true" signature="162:212" placeholder="SELECT max(i... emploie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/Emploie/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.322581">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66211605">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.11262798">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
