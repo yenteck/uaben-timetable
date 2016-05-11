@@ -42,6 +42,10 @@
             <div class="col-sm-10 col-sm-offset-1 effect7" style="margin-top: 10px;">
                 <img src="images/isi.jpg" alt="" style="width: 100px" class="img-responsive">
                 EMPLOI DE TEMPS DE L'UNIVERSITÉ AUBE NOUVELLE
+
+                <div class="pull-right" style="margin-top: -40px;">
+                    telecharger l'application <a href="" class="btn btn-info">ANDROID </a>
+                </div>
             </div>
         </div>
     </div>
@@ -58,8 +62,10 @@
 
 
             <div class="form-classe">
-                <form action="/public" method="post">
-
+                <form action="" method="post">
+                    <div style="color:#fff;padding-bottom: 5px;" class="text-center">
+                        (*) choisissez votre classe
+                    </div>
                     <select name="idclasse" id="idclasse" class="selectpicker bs-select-hidden" data-live-search="true">
                         <?php
                         foreach($listeClasses as $classe){
@@ -123,7 +129,7 @@
             <?php
                 if($lib){
                     ?>
-                    <a href="Emploie/print/<?= $lib['idemploie'] ?>"><span class="glyphicon glyphicon-download"></span>TELECHARGER</a>
+                    <a href="Emploie/print/<?= $lib['idemploie'] ?>" class="btn-download"><span class="glyphicon glyphicon-download"></span>TELECHARGER</a>
             <?php
                 }
             ?>
@@ -131,12 +137,21 @@
     </div>
 
     <!-- end the section-->
-    <footer class="row" >
-        <div class="col-sm-10 col-sm-offset-1" id="p-footer">
-            the footer
-        </div>
-    </footer>
 </div>
+
+
+<footer>
+    <div class="container">
+
+
+    <div class="row " >
+        <div class="col-sm-10 col-sm-offset-1 " id="p-footer">
+
+            coded with <span class="glyphicon glyphicon-heart"></span> by IT TEAM CLUB . <a href="mailto:yentemanadjoari@gmail.com"> <span class="glyphicon glyphicon-envelope"> </span> email us.</a>
+        </div>
+    </div>
+    </div>
+</footer>
 
 <script src="../../js/jquery-2.1.4.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
