@@ -4,7 +4,7 @@ function getListeEmploie($idclasse){
 
     global $bdd;
 
-    $query="SELECT idclasse,expired ,idemploie, DATE_FORMAT(datedebut,'%d %M') datedebut , DATE_FORMAT(datefin,'%d %M') datefin FROM emploie WHERE idclasse=$idclasse ORDER BY idemploie";
+    $query="SELECT idclasse,expired ,idemploie, DATE_FORMAT(datedebut,'%d %M') datedebut , DATE_FORMAT(datefin,'%d %M') datefin FROM emploie WHERE idclasse=$idclasse ORDER BY idemploie desc";
 
     $req=$bdd->query($query);
 

@@ -6,7 +6,7 @@ function getClasses(){
 
     $req=$bdd->prepare("SELECT codeclasse , idclasse FROM classe");
     $req->execute();
-
+    
 
     $classes=[];
 

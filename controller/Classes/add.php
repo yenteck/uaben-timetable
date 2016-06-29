@@ -10,7 +10,9 @@ if(!empty($_POST['codeclasse'])  and !empty($_POST['idfiliere'])){
     $libelleclasse = htmlspecialchars($_POST['libelleclasse']);
     $idfiliere = htmlspecialchars($_POST['idfiliere']);
 
-    if(addClasse($codeclasse,$libelleclasse,$idfiliere)){
+
+
+    if(addClasse($codeclasse,$idfiliere)){
 
         header("location:/Classes");
     }else header("location:/Classes/add");

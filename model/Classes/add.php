@@ -1,13 +1,15 @@
 <?php
 
-function addClasse($code,$libelle ,$idfiliere){
+function addClasse($code ,$idfiliere){
 
     global $bdd;
 
+    debug($idfiliere);
+    $req=$bdd->prepare("INSERT INTO  classe  set codeclasse=?  , idfiliere=?");
 
-    $req=$bdd->prepare("INSERT INTO  classe  set codeclasse=? , libelleclasse=? , idfiliere=?");
 
-    $rows=$req->execute(array($code,$libelle,$idfiliere));
+    $rows=$req->execute(array($code,$idfiliere));
+
 
     return $rows;
 

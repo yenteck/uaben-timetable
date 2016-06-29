@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title><?= $page_title ;?></title>
-    <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <link rel="stylesheet" href="../../css/style.css">
+
     <?php
     include "inc/css.php";
     ?>
@@ -66,10 +66,10 @@
 
 
 
-            <form action="/Matieres/add/" method="post">
+            <form action="/Matieres/add" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE CLASSE</label>
-                    <select multiple name="idclasse" data-role="tagsinput"  data-live-search="true">
+                    <select  name="idclasse" style="width:300px" class="selectpicker  bs-select-hidden" data-live-search="true">
                         <?php
                         foreach($listeClasses as $classe){
                             ?>
@@ -81,11 +81,11 @@
                 </div>
                 <div class="form-group">
                     <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control">
+                    <input type="text" name="codematiere"  class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label for="">NOM COMPLET</label>
-                    <input type="text" name="libellematiere"  class="form-control">
+                    <input type="text" name="libellematiere"  class="form-control" required>
                 </div>
                 <input type="submit" value="ENREGISTRER " class="btn btn-primary">
             </form>
@@ -99,9 +99,9 @@
         </div>
     </footer>
 </div>
-<script src="../../js/jquery-2.1.4.min.js"></script>
-<script src="../../js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="../../js/bootstrap-select.js"></script>
-<script src="../../js/bootstrap-tagsinput.min.js"></script>
+
 </body>
 </html>

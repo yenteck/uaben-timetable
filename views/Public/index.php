@@ -44,7 +44,7 @@
                 EMPLOI DE TEMPS DE L'UNIVERSITÉ AUBE NOUVELLE
 
                 <div class="pull-right" style="margin-top: -40px;">
-                    telecharger l'application <a href="" class="btn btn-info">ANDROID </a>
+                    telecharger l'application <a href="../../files/download.php" class="btn btn-info">ANDROID </a>
                 </div>
             </div>
         </div>

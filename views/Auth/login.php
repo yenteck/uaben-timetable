@@ -54,7 +54,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">MOT DE PASSE</label>
-                        <input type="text" name="password" class="form-control">
+                        <input type="password" name="password" class="form-control">
                     </div>
                     <input type="submit" value="se connecter" class="btn btn-info">
                 </fieldset>

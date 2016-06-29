@@ -2,7 +2,124 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28adbad9-e820-4171-a1ac-80f4e8c4e8e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/Emploie/ajax.php" afterPath="$PROJECT_DIR$/controller/Emploie/ajax.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/almohanad.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/almohanad.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/almohanad.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/arialunicid0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/courier.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusans.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusans.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusans.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensed.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusanscondensedi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmono.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmono.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmono.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonob.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonobi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavusansmonoi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserif.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserif.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserif.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensed.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifcondensedi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/dejavuserifi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemono.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemono.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemono.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonob.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonob.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonob.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonobi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonobi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonobi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonoi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonoi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freemonoi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesans.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesans.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesans.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freesansi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserif.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserif.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserif.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifb.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifb.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifbi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifbi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifbi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifi.ctg.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifi.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/inc/html2pdf/_tcpdf_5.0.002/fonts/freeserifi.z" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/dnd3_demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/easyui-timetable-demo.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/Classes/add.php" afterPath="$PROJECT_DIR$/controller/Classes/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/Matieres/edit.php" afterPath="$PROJECT_DIR$/controller/Matieres/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/api/classes.php" afterPath="$PROJECT_DIR$/controller/api/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/inc/css.php" afterPath="$PROJECT_DIR$/inc/css.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Classes/add.php" afterPath="$PROJECT_DIR$/model/Classes/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Emploie/index.php" afterPath="$PROJECT_DIR$/model/Emploie/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnect.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/PDO/pdoconnectPOSTGRES.php" afterPath="$PROJECT_DIR$/model/PDO/pdoconnectPOSTGRES.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/api/classes.php" afterPath="$PROJECT_DIR$/model/api/classes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Auth/login.php" afterPath="$PROJECT_DIR$/views/Auth/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Matieres/add.php" afterPath="$PROJECT_DIR$/views/Matieres/add.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Matieres/edit.php" afterPath="$PROJECT_DIR$/views/Matieres/edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Public/index.php" afterPath="$PROJECT_DIR$/views/Public/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/views/index.php" />
     </list>
     <ignored path="TIMETABLE.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,98 +141,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/Public/index.php">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/Classes/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1935484">
-              <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/Classes/add.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6757679">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1465403089167" expanded="true" signature="112:164" placeholder="INSERT INTO classe" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/public/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0645162">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pdoconnect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5161295">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/Emploie/ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11262798">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajax.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/Emploie/ajax.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.387097">
-              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding>
-                <marker date="1462146904825" expanded="true" signature="82:222" placeholder="SELECT datef... emploie" />
-                <marker date="1462146904825" expanded="true" signature="162:212" placeholder="SELECT max(i... emploie" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/css.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/public.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/Emploie/print.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.645162">
-              <caret line="28" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -129,12 +172,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/controller/public/index.php" />
         <option value="$PROJECT_DIR$/views/Public/index.php" />
         <option value="$PROJECT_DIR$/css/public.scss" />
         <option value="$PROJECT_DIR$/controller/Emploie/print.php" />
-        <option value="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
         <option value="$PROJECT_DIR$/controller/Emploie/ajax.php" />
+        <option value="$PROJECT_DIR$/controller/public/index.php" />
+        <option value="$PROJECT_DIR$/model/PDO/pdoconnectPOSTGRES.php" />
+        <option value="$PROJECT_DIR$/model/PDO/pdoconnect.php" />
+        <option value="$PROJECT_DIR$/inc/css.php" />
+        <option value="$PROJECT_DIR$/controller/Matieres/add.php" />
+        <option value="$PROJECT_DIR$/views/Matieres/add.php" />
+        <option value="$PROJECT_DIR$/controller/Matieres/edit.php" />
+        <option value="$PROJECT_DIR$/views/Matieres/edit.php" />
+        <option value="$PROJECT_DIR$/model/Matieres/edit.php" />
+        <option value="$PROJECT_DIR$/model/Emploie/details.php" />
+        <option value="$PROJECT_DIR$/model/Emploie/index.php" />
+        <option value="$PROJECT_DIR$/views/index.php" />
+        <option value="$PROJECT_DIR$/controller/Classes/add.php" />
+        <option value="$PROJECT_DIR$/model/Classes/add.php" />
       </list>
     </option>
   </component>
@@ -177,6 +232,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,6 +262,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -223,7 +294,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="PDO" />
+              <option name="myItemId" value="Public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,11 +308,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Emploie" />
+              <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,14 +340,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Emploie" />
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TIMETABLE" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Auth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,9 +415,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27045456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2977273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -392,9 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,7 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -418,7 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -434,7 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,9 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="135" column="0" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -476,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -484,7 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -492,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,7 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,9 +575,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="98" selection-start-line="8" selection-start-column="98" selection-end-line="8" selection-end-column="98" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,7 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,9 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,7 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,22 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/css.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -591,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.0136518">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -599,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,53 +645,195 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.645162">
           <caret line="28" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/Emploie/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.387097">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1462146904825" expanded="true" signature="82:222" placeholder="SELECT datef... emploie" />
-            <marker date="1462146904825" expanded="true" signature="162:212" placeholder="SELECT max(i... emploie" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5161295">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0645162">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/Public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1935484">
-          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/Emploie/ajax.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11262798">
+        <state vertical-scroll-proportion="0.1769437">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Emploie/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5308311">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08847185">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08847185">
+          <caret line="64" column="30" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnectPOSTGRES.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.92662114">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/PDO/pdoconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05631399">
+          <caret line="2" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Matieres/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Matieres/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Matieres/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.580646">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Matieres/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54948807">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Matieres/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0645162">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Matieres/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Matieres/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5631399">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Matieres/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.29522184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Emploie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8447099">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Emploie/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33788395">
+          <caret line="6" column="189" selection-start-line="6" selection-start-column="189" selection-end-line="6" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Emploie/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05631399">
+          <caret line="5" column="213" selection-start-line="5" selection-start-column="213" selection-end-line="5" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Auth/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.580646">
+          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="71.58064">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.887372">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16894197">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28156996">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/Classes/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Classes/add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6757679">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1465403089167" expanded="true" signature="112:164" placeholder="INSERT INTO classe" />
+          </folding>
         </state>
       </provider>
     </entry>

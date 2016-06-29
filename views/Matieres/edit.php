@@ -65,7 +65,7 @@
 
 
 
-            <form action="/Matieres/edit/<?= $idc;?>" method="post">
+            <form action="/Matieres/edit/<?= $idm;?>" method="post">
                 <div class="form-group">
                     <label for="">CHOISIR VOTRE CLASSE</label>
                     <select name="idclasse" class="form-control">
@@ -80,11 +80,11 @@
                 </div>
                 <div class="form-group">
                     <label for="">CODE MATIERE</label>
-                    <input type="text" name="codematiere"  class="form-control" value="<?= $details['codematiere']; ?>">
+                    <input type="text" name="codematiere"  required class="form-control" value="<?= $details['codematiere']; ?>">
                 </div>
                 <div class="form-group">
                     <label for="">NOM COMPLET DE LA MATIERE</label>
-                    <input type="text" name="libellematiere"  class="form-control" value="<?= $details['libellematiere']; ?>">
+                    <input type="text" name="libellematiere"   required class="form-control" value="<?= $details['libellematiere']; ?>">
                 </div>
                 <input type="submit" value="ENREGISTRER " class="btn btn-primary">
             </form>

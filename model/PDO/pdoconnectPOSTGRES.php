@@ -31,7 +31,7 @@ class Pdoconnect{
 
 
 try{
-    $bdd=new PDO("pgsql:host=ec2-54-83-17-9.compute-1.amazonaws.com;dbname=d918to3rofuc94","iuaphxentsdxwt","pqeIIRPTm8EzmPqHlybd7fE6nC");
+    $bdd=new PDO("pgsql:host=ec2-54-227-240-164.compute-1.amazonaws.com;dbname=dar4cqekr12g05","vnpmcvnsktrixe","0fCTjb7gKa4dkJs7gAGbYYZhKS");
     $bdd->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
 }catch(Exception $e){
